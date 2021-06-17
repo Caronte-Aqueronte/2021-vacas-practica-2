@@ -75,7 +75,7 @@ public class VectorPelicula {
 
     public void editarPelicula() {
         mostrarPeliculas();
-        int id = IngresoDatos.getEntero("Ingrese el id de la pelicula a eliminar", false);
+        int id = IngresoDatos.getEntero("Ingrese el id de la pelicula a editar", false);
         System.out.println("Que desea cambiar\n1) Nombre\n2) Año de salida\n3) Genero");
         int opcion = IngresoDatos.getEntero("Elija la opcion", false);
         String nuevoParametro;
